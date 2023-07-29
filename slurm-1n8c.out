@@ -1,0 +1,75 @@
+Task 1:
+
+Rank       Author Id                 Number of Tweets Made
+#1         1498063511204761601           68477
+#2         1089023364973219840           28128
+#3         826332877457481728            27718
+#4         1250331934242123776           25350
+#5         1423662808311287813           21033
+#6         1183144981252280322           20762
+#7         1270672820792508417           20503
+#8         820431428835885059            20063
+#9         778785859030003712            19403
+#10        1104295492433764353           18781
+
+Task 2:
+
+Greater Capital City           Number of Tweets Made         
+1gsyd(Greater Sydney)            2114698
+2gmel(Greater Melbourne)         2267051
+3gbri(Greater Brisbane)           855448
+4gade(Greater Adelaide)           451517
+5gper(Greater Perth)              589115
+6ghob(Greater Hobart)              90053
+7gdar(Greater Darwin)              46376
+8acte(Greater Canberra)           194360
+9oter(Great Other Territories)       160
+
+Task 3:
+
+Rank       Author Id                 Number of Unique City Locations and #Tweets
+#1         1429984556451389440       8(#1908 tweets - #10gsyd, #1868gmel, #6gbri, #2gade, #7gper, #1ghob, #1gdar, #13acte)
+#2         17285408                  8(#1189 tweets - #1041gsyd, #60gmel, #40gbri, #3gade, #7gper, #11ghob, #4gdar, #23acte)
+#3         702290904460169216        8(#1122 tweets - #288gsyd, #246gmel, #219gbri, #114gade, #151gper, #40ghob, #20gdar, #44acte)
+#4         87188071                  8(#390 tweets - #108gsyd, #84gmel, #64gbri, #29gade, #51gper, #15ghob, #5gdar, #34acte)
+#5         1361519083                8(#260 tweets - #12gsyd, #36gmel, #1gbri, #9gade, #1gper, #2ghob, #193gdar, #6acte)
+#6         502381727                 8(#250 tweets - #2gsyd, #214gmel, #8gbri, #4gade, #3gper, #8ghob, #1gdar, #10acte)
+#7         921197448885886977        8(#198 tweets - #46gsyd, #56gmel, #37gbri, #20gade, #28gper, #4ghob, #1gdar, #6acte)
+#8         601712763                 8(#146 tweets - #44gsyd, #39gmel, #11gbri, #19gade, #14gper, #8ghob, #1gdar, #10acte)
+#9         2647302752                8(#80 tweets - #13gsyd, #16gmel, #32gbri, #3gade, #4gper, #5ghob, #3gdar, #4acte)
+#10        3686036533                7(#2584 tweets - #403gsyd, #1547gmel, #91gbri, #47gade, #186gper, #84ghob, #226acte)
+
+
+real	1m42.004s
+user	13m3.965s
+sys	0m19.405s
+Job ID           : 46153716
+Cluster          : spartan
+User/Project     : jiaqtang/comp90024
+Nodes            : 1
+Wall-clock time  : 00:01:53 / 01:00:00
+
+Displaying overall resources usage from 2023-04-07 00:42:23 to 2023-04-07 00:44:16:
+
+NODE            CPU#        TOT%   ( USR   / SYS   / WIO   / IDLE  ) 
+
+spartan-bm096 : 
+                CPU# 1    : 76.8   (  74.9 /   2.0 /   0.0 /  23.2 ) 
+                CPU# 2    : 90.0   (  87.6 /   2.4 /   0.0 /  10.0 ) 
+                CPU# 3    : 76.4   (  74.7 /   1.8 /   0.0 /  23.6 ) 
+                CPU# 4    : 76.4   (  74.5 /   1.9 /   0.0 /  23.6 ) 
+                CPU# 5    : 76.6   (  74.4 /   2.1 /   0.0 /  23.4 ) 
+                CPU# 6    : 76.8   (  74.6 /   2.2 /   0.0 /  23.2 ) 
+                CPU# 7    : 76.1   (  74.2 /   1.9 /   0.0 /  23.9 ) 
+                CPU# 8    : 76.3   (  74.5 /   1.9 /   0.0 /  23.7 ) 
+
+
+Allocated CPUs            : 8    
+  CPUs with usage <25%    : 0    
+  CPUs with usage <50%    : 0    
+  CPUs with usage >50%    : 8    
+
+Memory used (RAM)         : 2.7%  [867MB of 32000MB]
+
+--------------------------------------------
+
